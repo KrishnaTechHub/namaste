@@ -1,6 +1,7 @@
-`timescale 1ns / 1ps
+//Verilog code for manchester enc/dec implementation on FPGA
 //encout- manchester encoded data
 //decout- manchester decoded data
+`timescale 1ns / 1ps
 module enc_dec_man(inp,clk,encout,decout);
 //manchester encoder
 //clock period- 10ns
